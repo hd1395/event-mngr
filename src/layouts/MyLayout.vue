@@ -11,10 +11,16 @@
         >
           <q-icon name="menu" />
         </q-btn>
-
+        <q-avatar size="128px" icon="img:statics/siteavatar.jpg">
+        </q-avatar>
         <q-toolbar-title>
           Quasar App
         </q-toolbar-title>
+        <q-space ></q-space>
+          <q-btn flat round dense icon="search" class="q-mr-xs" />
+          <q-btn flat round dense icon="group_add" />
+        </q-toolbar>
+        <q-toolbar inset>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
